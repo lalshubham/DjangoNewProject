@@ -11,7 +11,7 @@ def contact(request):
 
 
 def template(request):
-    return render(request, 'polls/index.html')
+    return render(request, 'polls/layouts/homepage.html')
 
 def templateabout(request):
     return render(request, 'polls/about.html')
